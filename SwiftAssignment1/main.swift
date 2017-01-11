@@ -12,16 +12,17 @@ var score = ScoreManager()
 
 func Intro()
 {
-    print("\n\n      --= WHO'S THAT POKéMON!! =--\n")
-    print("==========================================\n")
+    print("\n\n               --= WHO'S THAT POKéMON!! =--\n")
+    print("                     (-o-) (-o-) (-o-)\n")
+    print("============================================================\n")
     print("RULES:\n")
     print("I will give you a Pokédex entry and you \nmust type in a Pokémon name to guess the \nPokémon the entry is describing.\n")
     print("You get 1 point for every correct answer.\n")
-    print("==========================================\n")
+    print("============================================================\n")
     print("Game by Carlo Albino, 2017\n")
-    print("------------------------------------------\n")
+    print("------------------------------------------------------------\n")
     score.PrintHighScore()
-    print("------------------------------------------\n")
+    print("------------------------------------------------------------\n")
     print("Do you want to play?\n")
     print("Type 'yes' to play, or 'no' to quit.\n")
 }
@@ -46,11 +47,11 @@ func Game(dictionary : Pokedex) -> Int
     repeat{
         // Print Definition
         var isCorrect = false
-        print("\n\n==========================================\n")
+        print("\n\n============================================================\n")
         print("Who's that Pokémon?\n")
-        print("==========================================\n")
+        print("============================================================\n")
         print(def!)
-        print("------------------------------------------\n")
+        print("\n------------------------------------------------------------\n")
         // Wait for guess
         print("Your Guess:\n")
         // Check to see if the guess is correct
@@ -192,9 +193,9 @@ func Main()
 
     
     // Quitting
-    print("\n\n==========================================\n")
+    print("\n\n============================================================\n")
     print("Leaving game. Thanks for playing!\n")
-    print("==========================================\n")
+    print("============================================================\n")
 }
 
 

@@ -10,7 +10,7 @@ import Foundation
 
 public class Pokedex
 {
-    public let dict =
+    public var dict =
         [
             "Bulbasaur" : "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
             "Ivysaur" : "The bulb on its back grows by drawing energy. It gives off an aroma when it is ready to bloom.",
@@ -65,6 +65,11 @@ public class Pokedex
             "Venonat" : "Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes.",
             "Venomoth" : "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
             "Diglett" : "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
-            "Dugtrio" : "A team of triplets that can burrow over 60 MPH. Due to this, some people think it's an earthquake.",
+            "Dugtrio" : "A team of triplets that can burrow over 60 MPH. Due to this, some people think it's an earthquake."
         ]
+    
+    public func RemoveItem(key : String)
+    {
+        dict.removeValue(forKey: key)
+    }
 }

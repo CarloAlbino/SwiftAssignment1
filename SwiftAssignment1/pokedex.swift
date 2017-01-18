@@ -65,7 +65,20 @@ public class Pokedex
             "Venonat" : "Its large eyes act as radars. In a bright place, \nyou can see that they are clusters of many tiny eyes.",
             "Venomoth" : "The dust-like scales covering its wings are color \ncoded to indicate the kinds of poison it has.",
             "Diglett" : "Lives about one yard underground where it feeds on \nplant roots. It sometimes appears above ground.",
-            "Dugtrio" : "A team of triplets that can burrow over 60 MPH. \nDue to this, some people think it's an earthquake."
+            "Dugtrio" : "A team of triplets that can burrow over 60 MPH. \nDue to this, some people think it's an earthquake.",
+            
+            "Meowth" : "Adores circular objects. Wanders the streets on \na nightly basis to look for dropped loose change.",
+            "Persian" : "The gem in its forehead glows on its own! \nIt walks with all the grace and elegance of a proud queen.",
+            "Psyduck" : "Always tormented by headaches. It uses psychic \npowers, but it is not known if it intends to do so.",
+            "Golduck" : "Often seen swimming elegantly by lake shores. \nIt is often mistaken for the Japanese monster, Kappa.",
+            "Mankey" : "An agile Pokémon that lives in trees. It angers \neasily and will not hesitate to attack anything.",
+            "Primeape" : "It stops being angry only when nobody else is \naround. To view this moment is very difficult.",
+            "Growlithe" : "A Pokémon with a friendly nature. However, \nit will bark fiercely at anything invading its territory.",
+            "Arcanine" : "A legendary Pokémon in China. Many people are \ncharmed by its grace and beauty while running.",
+            "Poliwag" : "Its newly grown legs prevent it from running. \nIt appears to prefer swimming than trying to stand.",
+            "Poliwhirl" : "Capable of living in or out of water. When \nout of water, it sweats to keep its body slimy.",
+            
+            "Poliwrath" : "Swims powerfully using all the muscles in its \nbody. It can even overtake champion swimmers."
         ]
     
     public func RemoveItem(key : String)
